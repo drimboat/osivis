@@ -1,0 +1,53 @@
+.proceed{
+width: 59.5%;
+}
+.cancel{
+width: 19.5%;
+}
+.edit{
+width: 19.5%;
+}
+@media screen and (max-width: 850px){
+div.lev-icn{
+	position: absolute;
+	width: 15%;
+	left: 5%;
+}
+div.lev-icn.end{
+	left: 80%;
+}
+.left{
+	width: 70%;
+	float: left;
+}
+.right{
+	width: 70%;
+	float: right;
+}
+ul.level::before{
+	display: none;
+}
+}
+/* 
+	mobile css
+*/ 
+@media screen and (max-width: 500px){
+.mobile-100{
+	width: 100%;
+}
+ul.level::before{
+	display: none;
+}
+.level-content{
+	width: 85%;
+	float: none;
+	margin: auto;
+	clear: both;
+}
+.center{
+	text-align: center;
+}
+.no-display-mobile{
+ display: none!important;
+}
+}

@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	width: 100%;
+	min-width: 320px;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+a:hover, a:focus{
+	text-decoration: none;
+/*	color: #bb0090; */
+}
+.body{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+.head-content{
+	width: 50%;
+	max-width: 400px;
+	margin: auto;
+    height: 100%;
+    padding: 50px 0;
+}
+ul.level::before{
+	content: "";
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 3px;
+    margin-left: -1.5px;
+    z-index: -1;
+    background-color: #eeeeee;
+}
+ul.level::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+ul li{
+	position: relative;
+	overflow: hidden;
+	list-style-type: none;
+	margin-bottom: 20px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+.left{
+	width: 40%;
+    float: left;
+}
+.level-content{
+    margin: 40px 30px;
+}
+.right{
+	width: 40%;
+	float: right;
+}
+ul li div::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+div.lev-icn{
+	position: absolute;
+	width: 10%;
+	left: 45%;
+}
+.panel-head{
+	border-bottom: 1px gray solid;
+	margin-bottom: 5px;
+	color: white;
+	background: black;
+	text-align: center;
+}
+footer{
+	height: auto;
+	overflow: hidden;
+	background: darkgray;
+}
+.panel-primary{
+	box-shadow: 0 0 5px;
+}
+.about{
+	width: 50%;
+	float: left;
+	padding: 15px 20px;
+}
+.contact{
+	padding: 15px 20px;
+	width: 50%;
+	float: right;
+}
+footer::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.panel-primary>.panel-heading{
+	color: #fff;
+    background-color: #0090bb;
+    border-color: #0090bb;
+}
+ul.list-unstyled li{
+	width: 100%;
+}
+ul.list-unstyled li:last-child{
+	margin: 0;
+}
+@media print{
+	.hide-print{
+		display: none;
+	}
+}
+/*font*/
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif|Josefin+Slab|Niconne|Open+Sans+Condensed:300|Roboto');

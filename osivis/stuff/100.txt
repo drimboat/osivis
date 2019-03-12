@@ -1,0 +1,23 @@
+100.1
+GEDS131	Communication in English
+GEDS101	Philosophy of Christian Education
+GEDS107	Introduction to General Psychology
+GEDS105	Use of Library & Study Skills
+100.2
+GEDS112	Health Principles
+GEDS122	Life And Teachings Of Christ
+GEDS132	Communication in English II
+GEDS134	Nigerian People In A Global Culture 
+200.1
+GEDS 201 Fundamentals of Christian Beliefs
+GEDS 200 Communication in French
+GEDS 221 Introduction to Agriculture
+200.2
+GEDS 222 Philosophy of science
+300.1
+GEDS 301 Religion and Society
+300.2
+GEDS 312 Introduction to Family Life Education
+400
+GEDS 400 Introduction to Entrepreneurship skills
+400.2
